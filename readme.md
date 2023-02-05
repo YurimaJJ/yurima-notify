@@ -22,6 +22,8 @@ Trigger (Client) Example:
 Trigger (Server) Example:
 
     TriggerClientEvent("yurima-notify", "Info", "Rosberg beats Hamilton in an equal machine", 5000, "success")
+    TriggerClientEvent("yurima-notify", "Info", "Rosberg beats Hamilton in an equal machine", 5000, "info")
+    TriggerClientEvent("yurima-notify", "Info", "Rosberg beats Hamilton in an equal machine", 5000, "error")
 
 
 Please notify us if there is any issue, bug or vulnerability.
